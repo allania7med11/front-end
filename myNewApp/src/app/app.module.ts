@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { TrackingStudentComponent } from './components/tracking-student/tracking-student.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { TableBasicExampleComponent } from './table-basic-example/table-basic-example.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TrackingStudentComponent
+    TrackingStudentComponent,
+    TableBasicExampleComponent
   ],
   imports: [
     MatPaginatorModule,
